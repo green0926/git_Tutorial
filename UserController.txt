@@ -3,7 +3,13 @@ public class UserController{
 	// 로그인 페이지로 이동
 	@RequestMappint("/user/login.do")
 	public String login(){
-		logger.onfo("경로 : login");
+		logger.info("경로 : login");
 		return "user/login";
+	}
+
+	@RequestMapping("/user/insert.do")
+	public String insert(){
+		logger.info("경로 : insert");
+		return "user/insert";
 	}
 }
