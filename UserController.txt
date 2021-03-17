@@ -18,4 +18,6 @@ public class UserController{
 		logger.info("경로 : update");
 		return "user/update";
 	}
+
+	항목 추가 
 }
